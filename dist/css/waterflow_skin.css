@@ -6,10 +6,24 @@
   background-color: #3F4480 !important;
 }
 
+.main-sidebar{
+  background-color: #818A8F !important;
+}
+
 .sidebar{
   background-color: #033B5D !important;
 }
 
 .content, .content-header{
   background-color: #E1DAC9 !important;
+}
+
+.skin-blue .sidebar-menu>li:hover>a,
+.skin-blue .sidebar-menu>li.active>a,
+.skin-blue .sidebar-menu>li.menu-open>a{
+  background-color: #587182 !important;
+}
+
+.treeview-menu{
+  background-color: #144868 !important;
 }
