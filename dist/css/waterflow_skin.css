@@ -1,13 +1,13 @@
 .skin-blue .main-header .navbar{
-  background-color: #3F4480 !important;
+  background-color: #060F65 !important;
 }
 
 .logo{
-  background-color: #3F4480 !important;
+  background-color: #060F65 !important;
 }
 
 .main-sidebar{
-  background-color: #060F65 !important;
+  background-color: #3F4480 !important;
 }
 
 .sidebar{
@@ -21,7 +21,7 @@
 .skin-blue .sidebar-menu>li:hover>a,
 .skin-blue .sidebar-menu>li.active>a,
 .skin-blue .sidebar-menu>li.menu-open>a{
-  background-color: #587182 !important;
+  background-color: #3F4480 !important;
 }
 
 .treeview-menu{
