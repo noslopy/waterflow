@@ -58,83 +58,7 @@
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-          <!-- Messages: style can be found in dropdown.less-->
-          <li class="dropdown messages-menu">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <i class="fa fa-envelope-o"></i>
-              <span class="label label-success">4</span>
-            </a>
-            <ul class="dropdown-menu">
-              <li class="header">You have 4 messages</li>
-              <li>
-                <!-- inner menu: contains the actual data -->
-                <ul class="menu">
-                  <li><!-- start message -->
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        Support Team
-                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <!-- end message -->
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        AdminLTE Design Team
-                        <small><i class="fa fa-clock-o"></i> 2 hours</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        Developers
-                        <small><i class="fa fa-clock-o"></i> Today</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        Sales Department
-                        <small><i class="fa fa-clock-o"></i> Yesterday</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <div class="pull-left">
-                        <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
-                      </div>
-                      <h4>
-                        Reviewers
-                        <small><i class="fa fa-clock-o"></i> 2 days</small>
-                      </h4>
-                      <p>Why not buy a new awesome theme?</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="footer"><a href="#">See All Messages</a></li>
-            </ul>
-          </li>
+
           <!-- Notifications: style can be found in dropdown.less -->
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -181,7 +105,7 @@
           <li class="dropdown tasks-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <i class="fa fa-flag-o"></i>
-              <span class="label label-danger">9</span>
+              <span class="label label-danger">28</span>
             </a>
             <ul class="dropdown-menu">
               <li class="header">You have 9 tasks</li>
@@ -323,7 +247,7 @@
       <!-- search form -->
       <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
+          <input type="text" name="q" class="form-control" placeholder="Keresés...">
           <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat">
                   <i class="fa fa-search"></i>
@@ -354,15 +278,7 @@
             </span>
           </a>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-pie-chart"></i>
-            <span>Jelentések</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-        </li>
+
         <li class="treeview">
           <a href="#">
             <i class="fa fa-laptop"></i>
@@ -397,12 +313,29 @@
             <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
           </ul>
         </li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-pie-chart"></i>
+            <span>Jelentések</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+        </li>
         <li>
           <a href="pages/calendar.html">
             <i class="fa fa-user"></i> <span>Ügyfélszolgálat</span>
             <span class="pull-right-container">
               <small class="label pull-right bg-red">3</small>
               <small class="label pull-right bg-blue">17</small>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="pages/calendar.html">
+            <i class="fa fa-cog"></i> <span>Beállítások</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
         </li>
@@ -420,10 +353,7 @@
         Irányítópult
         <small>Termékmenedzser</small>
       </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
-      </ol>
+
     </section>
 
     <!-- Main content -->
@@ -432,7 +362,7 @@
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
-            <span class="info-box-icon bg-green"><i class="ion ion-ios-gear-outline"></i></span>
+            <span class="info-box-icon bg-green"><i class="fa fa-money"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Napi forgalom</span>
@@ -445,11 +375,11 @@
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
-            <span class="info-box-icon bg-aqua"><i class="fa fa-google-plus"></i></span>
+            <span class="info-box-icon bg-aqua"><i class="fa fa-object-group"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Készlet érték</span>
-              <span class="info-box-number">41,41 <small>MFt</small></span>
+              <span class="info-box-number">41,2 <small>MFt</small></span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -462,7 +392,7 @@
 
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
-            <span class="info-box-icon bg-red"><i class="ion ion-ios-cart-outline"></i></span>
+            <span class="info-box-icon bg-red"><i class="ion ion-ios-cart"></i></span>
 
             <div class="info-box-content">
               <span class="info-box-text">Várakozó rendelések</span>
@@ -475,11 +405,11 @@
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="info-box">
-            <span class="info-box-icon bg-yellow"><i class="ion ion-ios-people-outline"></i></span>
+            <span class="info-box-icon bg-yellow"><i class="fa fa-bar-chart"></i></span>
 
             <div class="info-box-content">
-              <span class="info-box-text">New Members</span>
-              <span class="info-box-number">2,000</span>
+              <span class="info-box-text">Árváltozás</span>
+              <span class="info-box-number">126</span>
             </div>
             <!-- /.info-box-content -->
           </div>
@@ -490,11 +420,72 @@
       <!-- /.row -->
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-8">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Feladatok</h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body no-padding">
+              <table class="table table-condensed">
+                <tr>
+                  <th style="width: 10px">#</th>
+                  <th>Feladat</th>
+                  <th>Állapot</th>
+                  <th style="width: 40px">Címke</th>
+                </tr>
+                <tr>
+                  <td>1.</td>
+                  <td>Aquaplus - Új beszállító</td>
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-aqua">Beszállítók</span></td>
+                </tr>
+                <tr>
+                  <td>2.</td>
+                  <td>Samsung promóció</td>
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-green" style="width: 70%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-yellow">Promóciók</span></td>
+                </tr>
+                <tr>
+                  <td>3.</td>
+                  <td>Apple promóció</td>
+                  <td>
+                    <div class="progress progress-xs progress-striped active">
+                      <div class="progress-bar progress-bar-green" style="width: 30%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-yellow">Promóciók</span></td>
+                </tr>
+                <tr>
+                  <td>4.</td>
+                  <td>Termékadatlapok ellenőrzése</td>
+                  <td>
+                    <div class="progress progress-xs progress-striped active">
+                      <div class="progress-bar progress-bar-success" style="width: 90%"></div>
+                    </div>
+                  </td>
+                  <td><span class="badge bg-green">Termékek</span></td>
+                </tr>
+              </table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer text-center">
+              <a href="javascript:void(0)" class="uppercase">További 24 feladat</a>
+            </div>
+          </div>
+          <!-- /.box -->
           <!-- AREA CHART -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Heti kimutatás</h3>
+              <h3 class="box-title">Beszerzési ár / Eladási ár</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -507,95 +498,163 @@
             </div>
             <!-- /.box-body -->
           </div>
-          <div class="box">
+
+
+
+        </div>
+        <!-- /.col -->
+        <div class="col-md-4">
+          <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Monthly Recap Report</h3>
+              <h3 class="box-title">Kifutó termékek</h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
-                <div class="btn-group">
-                  <button type="button" class="btn btn-box-tool dropdown-toggle" data-toggle="dropdown">
-                    <i class="fa fa-wrench"></i></button>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Separated link</a></li>
-                  </ul>
-                </div>
                 <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
               </div>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <div class="row">
-                <div class="col-md-8">
-                  <p class="text-center">
-                    <strong>Sales: 1 Jan, 2014 - 30 Jul, 2014</strong>
-                  </p>
-
-                  <div class="chart">
-                    <!-- Sales Chart Canvas -->
-                    <canvas id="salesChart" style="height: 180px;"></canvas>
+              <ul class="products-list product-list-in-box">
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/default-50x50.gif" alt="Product Image">
                   </div>
-                  <!-- /.chart-responsive -->
-                </div>
-                <!-- /.col -->
-                <div class="col-md-4">
-
-                </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
+                  <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">Samsung TV
+                      <span class="label label-warning pull-right">1 db</span></a>
+                    <span class="product-description">
+                          Samsung 24" 1080p 60Hz LED Smart HDTV.
+                        </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                  </div>
+                  <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">iPhone 5S
+                      <span class="label label-warning pull-right">3 db</span></a>
+                    <span class="product-description">
+                          32 GB, fehér
+                        </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                  </div>
+                  <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">Xbox One <span
+                        class="label label-danger pull-right">0 db</span></a>
+                    <span class="product-description">
+                          Xbox One Konzol
+                        </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                  </div>
+                  <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">PlayStation 4
+                      <span class="label label-warning pull-right">1 db</span></a>
+                    <span class="product-description">
+                          PlayStation 4 500GB Konzol (PS4)
+                        </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+              </ul>
             </div>
-            <!-- ./box-body -->
-            <div class="box-footer">
-              <div class="row">
-                <div class="col-sm-3 col-xs-6">
-                  <div class="description-block border-right">
-                    <span class="description-percentage text-green"><i class="fa fa-caret-up"></i> 17%</span>
-                    <h5 class="description-header">$35,210.43</h5>
-                    <span class="description-text">TOTAL REVENUE</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-                <div class="col-sm-3 col-xs-6">
-                  <div class="description-block border-right">
-                    <span class="description-percentage text-yellow"><i class="fa fa-caret-left"></i> 0%</span>
-                    <h5 class="description-header">$10,390.90</h5>
-                    <span class="description-text">TOTAL COST</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-                <div class="col-sm-3 col-xs-6">
-                  <div class="description-block border-right">
-                    <span class="description-percentage text-green"><i class="fa fa-caret-up"></i> 20%</span>
-                    <h5 class="description-header">$24,813.53</h5>
-                    <span class="description-text">TOTAL PROFIT</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-                <div class="col-sm-3 col-xs-6">
-                  <div class="description-block">
-                    <span class="description-percentage text-red"><i class="fa fa-caret-down"></i> 18%</span>
-                    <h5 class="description-header">1200</h5>
-                    <span class="description-text">GOAL COMPLETIONS</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-              </div>
-              <!-- /.row -->
+            <!-- /.box-body -->
+            <div class="box-footer text-center">
+              <a href="javascript:void(0)" class="uppercase">Összes kifutó termék</a>
             </div>
             <!-- /.box-footer -->
           </div>
           <!-- /.box -->
+          <!-- PRODUCT LIST -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title">Új termékek</h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+              <ul class="products-list product-list-in-box">
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                  </div>
+                  <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">Samsung TV
+                      <span class="label label-success pull-right">212 400 Ft</span></a>
+                    <span class="product-description">
+                          Samsung 32" 1080p 60Hz LED Smart HDTV.
+                        </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                  </div>
+                  <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">iPhone 6S
+                      <span class="label label-success pull-right">136 900 Ft</span></a>
+                    <span class="product-description">
+                          32 GB, fehér
+                        </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                  </div>
+                  <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">Xbox One <span
+                        class="label label-success pull-right">119 900 Ft</span></a>
+                    <span class="product-description">
+                          Xbox One Konzol
+                        </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+                <li class="item">
+                  <div class="product-img">
+                    <img src="dist/img/default-50x50.gif" alt="Product Image">
+                  </div>
+                  <div class="product-info">
+                    <a href="javascript:void(0)" class="product-title">PlayStation 4
+                      <span class="label label-success pull-right">98 000 Ft</span></a>
+                    <span class="product-description">
+                          PlayStation 4 500GB Konzol (PS4)
+                        </span>
+                  </div>
+                </li>
+                <!-- /.item -->
+              </ul>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer text-center">
+              <a href="javascript:void(0)" class="uppercase">Összes új termék</a>
+            </div>
+            <!-- /.box-footer -->
+          </div>
+          <!-- /.box -->
+
         </div>
-        <!-- /.col -->
       </div>
       <!-- /.row -->
 
@@ -822,81 +881,7 @@
           </div>
           <!-- /.box -->
 
-          <!-- PRODUCT LIST -->
-          <div class="box box-primary">
-            <div class="box-header with-border">
-              <h3 class="box-title">Recently Added Products</h3>
 
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-              <ul class="products-list product-list-in-box">
-                <li class="item">
-                  <div class="product-img">
-                    <img src="dist/img/default-50x50.gif" alt="Product Image">
-                  </div>
-                  <div class="product-info">
-                    <a href="javascript:void(0)" class="product-title">Samsung TV
-                      <span class="label label-warning pull-right">$1800</span></a>
-                    <span class="product-description">
-                          Samsung 32" 1080p 60Hz LED Smart HDTV.
-                        </span>
-                  </div>
-                </li>
-                <!-- /.item -->
-                <li class="item">
-                  <div class="product-img">
-                    <img src="dist/img/default-50x50.gif" alt="Product Image">
-                  </div>
-                  <div class="product-info">
-                    <a href="javascript:void(0)" class="product-title">Bicycle
-                      <span class="label label-info pull-right">$700</span></a>
-                    <span class="product-description">
-                          26" Mongoose Dolomite Men's 7-speed, Navy Blue.
-                        </span>
-                  </div>
-                </li>
-                <!-- /.item -->
-                <li class="item">
-                  <div class="product-img">
-                    <img src="dist/img/default-50x50.gif" alt="Product Image">
-                  </div>
-                  <div class="product-info">
-                    <a href="javascript:void(0)" class="product-title">Xbox One <span
-                        class="label label-danger pull-right">$350</span></a>
-                    <span class="product-description">
-                          Xbox One Console Bundle with Halo Master Chief Collection.
-                        </span>
-                  </div>
-                </li>
-                <!-- /.item -->
-                <li class="item">
-                  <div class="product-img">
-                    <img src="dist/img/default-50x50.gif" alt="Product Image">
-                  </div>
-                  <div class="product-info">
-                    <a href="javascript:void(0)" class="product-title">PlayStation 4
-                      <span class="label label-success pull-right">$399</span></a>
-                    <span class="product-description">
-                          PlayStation 4 500GB Console (PS4)
-                        </span>
-                  </div>
-                </li>
-                <!-- /.item -->
-              </ul>
-            </div>
-            <!-- /.box-body -->
-            <div class="box-footer text-center">
-              <a href="javascript:void(0)" class="uppercase">View All Products</a>
-            </div>
-            <!-- /.box-footer -->
-          </div>
-          <!-- /.box -->
         </div>
         <!-- /.col -->
       </div>
@@ -1143,20 +1128,17 @@
       element: 'revenue-chart',
       resize: true,
       data: [
-        {y: '2011 Q1', item1: 2666, item2: 2666},
-        {y: '2011 Q2', item1: 2778, item2: 2294},
-        {y: '2011 Q3', item1: 4912, item2: 1969},
-        {y: '2011 Q4', item1: 3767, item2: 3597},
-        {y: '2012 Q1', item1: 6810, item2: 1914},
-        {y: '2012 Q2', item1: 5670, item2: 4293},
-        {y: '2012 Q3', item1: 4820, item2: 3795},
-        {y: '2012 Q4', item1: 15073, item2: 5967},
-        {y: '2013 Q1', item1: 10687, item2: 4460},
-        {y: '2013 Q2', item1: 8432, item2: 5713}
+        {y: '2016 Q1', item1: 2666, item2: 2666},
+        {y: '2016 Q2', item1: 2778, item2: 2294},
+        {y: '2016 Q3', item1: 4912, item2: 1969},
+        {y: '2016 Q4', item1: 3767, item2: 3597},
+        {y: '2017 Q1', item1: 6810, item2: 1914},
+        {y: '2017 Q2', item1: 5670, item2: 4293},
+        {y: '2017 Q3', item1: 4820, item2: 3795}
       ],
       xkey: 'y',
       ykeys: ['item1', 'item2'],
-      labels: ['Item 1', 'Item 2'],
+      labels: ['Kiadás', 'Bevétel'],
       lineColors: ['#a0d0e0', '#3c8dbc'],
       hideHover: 'auto'
     });
